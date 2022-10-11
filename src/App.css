@@ -1,0 +1,41 @@
+:root{
+  font-size: 16px;
+}
+
+.App{
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .App{
+        max-width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+    .App{
+        max-width: 100%;
+    }
+  }
+
+hr{
+  margin-top: 2%;
+}
+
+.clal{
+  color: black;
+  background-color: white;
+  border: 2px solid dodgerblue;
+  width: 5rem;
+  margin-top: 2%;
+}
+
+.clal:hover{
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}

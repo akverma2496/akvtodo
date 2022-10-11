@@ -1,0 +1,65 @@
+ul{
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.listdiv{
+    height: 50px;
+}
+
+li{
+    display: inline;
+    font-size: 1rem;
+    float: left;
+}
+
+.listspan{
+    float: right;
+    width: 30%;
+}
+
+button{
+    margin-left: 2%;
+    font-family: verdana;
+    width: 4rem;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 0.5em;
+}
+
+.edit { 
+    border: 2px solid green;
+}
+
+.done {
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 500px) {
+    ul{
+        width: 95%;
+    } 
+    .listspan{
+        margin-right: 2%;
+        width: 50%;
+    }
+    .listdiv{
+        width: 100%;
+    }
+}
+
+.edit:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.done:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
