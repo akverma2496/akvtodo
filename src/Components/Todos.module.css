@@ -1,0 +1,33 @@
+.todoItem {
+    margin: 10px auto 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.todoText {
+    width: 85%;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.actionContainer {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.action {
+    width: 10%;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    opacity: 0.5;
+}

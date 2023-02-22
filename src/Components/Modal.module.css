@@ -1,0 +1,88 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logoutModal {
+  text-align: center;
+  max-width: 500px;
+  padding: 25px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalContent {
+  padding: 0 25px 25px 25px;
+  font-size: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.deleteBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background: #000;
+  transition: all 0.25s ease;
+}
+
+.deleteBtn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  ;
+}
+
+.cancelBtn {
+  border: 2px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  background: rgb(205, 205, 205);
+  transition: all 0.25s ease;
+}
+
+
+.editInputModal {
+  border: 2px solid grey;
+  width: 95%;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoutModal {
+    width: 90vw;
+  }
+}

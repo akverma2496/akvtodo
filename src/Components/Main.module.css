@@ -1,0 +1,70 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.mainNav {
+    margin: auto;
+    margin-top: 25px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.logoutLink:hover {
+    color: red;
+}
+
+.inputContainer {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mainInput {
+    padding: 15px;
+    width: 90%;
+    border: 2px solid grey;
+}
+
+.inputAdd {
+    width: 10%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.inputAdd:hover {
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+
+.clearAll {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 125px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clearAll:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
