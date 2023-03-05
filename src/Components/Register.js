@@ -50,6 +50,9 @@ const Register = () => {
                 if (error.message === 'Firebase: Error (auth/email-already-in-use).') {
                     setErrorMsg('Email already exists');
                 }
+                else if(error.message === 'Firebase: Password should be at least 6 characters (auth/weak-password).'){
+                    setErrorMsg('Password should be at least 6 characters');
+                }
                 else{
                     setErrorMsg('Something went wrong');
                 }
